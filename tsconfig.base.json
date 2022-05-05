@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@demotest/hello-tsc": ["packages/hello-tsc/src/index.ts"],
-      "@demotest/mylib": ["packages/mylib/src/index.ts"]
+      "@demotest/mylib": ["packages/mylib/src/index.ts"],
+      "@vaishali-ezee/nxtest": ["packages/nxtest/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

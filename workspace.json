@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "hello-tsc": "packages/hello-tsc",
-    "mylib": "packages/mylib"
+    "mylib": "packages/mylib",
+    "nxtest": "packages/nxtest"
   }
 }
