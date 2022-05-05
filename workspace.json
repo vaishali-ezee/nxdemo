@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "mylib": "packages/mylib",
-    "nxtest": "packages/nxtest"
+    "nxtest": "packages/nxtest",
+    "vuedemo": "packages/vuedemo"
   }
 }

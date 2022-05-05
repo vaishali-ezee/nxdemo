@@ -1,0 +1,32 @@
+{
+  "root": "packages/vuedemo",
+  "sourceRoot": "packages/vuedemo/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/vuedemo",
+        "main": "packages/vuedemo/src/index.ts",
+        "tsConfig": "packages/vuedemo/tsconfig.lib.json",
+        "assets": ["packages/vuedemo/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/vuedemo/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/vuedemo"],
+      "options": {
+        "jestConfig": "packages/vuedemo/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

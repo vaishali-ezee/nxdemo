@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@demotest/mylib": ["packages/mylib/src/index.ts"],
+      "@demotest/vuedemo": ["packages/vuedemo/src/index.ts"],
       "@vaishali-ezee/nxtest": ["packages/nxtest/src/index.ts"]
     }
   },
